@@ -1,8 +1,8 @@
 import * as React from 'react'
 import {useQuery, queryCache} from 'react-query'
+import {useAuth} from 'context/auth-context'
 import {client} from './api-client'
 import bookPlaceholderSvg from 'assets/book-placeholder.svg'
-import {useAuth} from 'context/auth-context'
 
 const loadingBook = {
   title: 'Loading...',
