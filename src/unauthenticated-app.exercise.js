@@ -10,10 +10,7 @@ import {
   Spinner,
   FormGroup,
   ErrorMessage,
-  // 💣 when you're all done, you won't need this Dialog anymore
-  // you can remove this now or later when you've finished
 } from './components/lib'
-// 🐨 import all the Modal compound components you created in ./components/modal
 import {
   Modal,
   ModalDismissButton,
@@ -108,12 +105,6 @@ function UnauthenticatedApp() {
           gridGap: '0.75rem',
         }}
       >
-        {/* 🐨 replace both of these with the Modal compound components */}
-        {/*
-          🦉 when you're done, it'll look a lot more complicated than
-             it did when you started, but the extra credits will help clean
-             things up a bit.
-        */}
         <Modal>
           <ModalOpenButton>
             <Button variant="primary">Login</Button>
